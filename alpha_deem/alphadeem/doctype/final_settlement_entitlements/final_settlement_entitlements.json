@@ -1,63 +1,76 @@
 {
- "actions": [],
- "allow_rename": 1,
- "creation": "2023-08-15 16:26:14.622252",
- "doctype": "DocType",
- "editable_grid": 1,
- "engine": "InnoDB",
- "field_order": [
-  "entitlements",
-  "from",
-  "to",
-  "description",
-  "amount"
- ],
- "fields": [
-  {
-   "fieldname": "entitlements",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "Entitlements",
-   "options": "Entitlements",
-   "reqd": 1
-  },
-  {
-   "fieldname": "from",
-   "fieldtype": "Date",
-   "in_list_view": 1,
-   "label": "From"
-  },
-  {
-   "fieldname": "to",
-   "fieldtype": "Date",
-   "in_list_view": 1,
-   "label": "To"
-  },
-  {
-   "fieldname": "amount",
-   "fieldtype": "Currency",
-   "in_list_view": 1,
-   "label": "Amount",
-   "reqd": 1
-  },
-  {
-   "fieldname": "description",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Description",
-   "reqd": 1
-  }
- ],
- "index_web_pages_for_search": 1,
- "istable": 1,
- "links": [],
- "modified": "2023-08-15 16:58:15.727221",
- "modified_by": "Administrator",
- "module": "ALPHADEEM",
- "name": "Final Settlement Entitlements",
- "owner": "Administrator",
- "permissions": [],
- "sort_field": "modified",
- "sort_order": "DESC",
- "states": []
+  "actions": [],
+  "allow_rename": 1,
+  "creation": "2023-08-15 16:26:14.622252",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "field_order": [
+    "entitlements",
+    "from",
+    "to",
+    "description",
+    "amount"
+  ],
+  "fields": [
+    {
+      "fieldname": "entitlements",
+      "fieldtype": "Link",
+      "in_list_view": 1,
+      "label": "Entitlements",
+      "options": "Entitlements",
+      "reqd": 1
+    },
+    {
+      "fieldname": "from",
+      "fieldtype": "Date",
+      "in_list_view": 1,
+      "label": "From"
+    },
+    {
+      "fieldname": "to",
+      "fieldtype": "Date",
+      "in_list_view": 1,
+      "label": "To"
+    },
+    {
+      "fieldname": "amount",
+      "fieldtype": "Currency",
+      "in_list_view": 1,
+      "label": "Amount",
+      "reqd": 1
+    },
+    {
+      "fieldname": "description",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Description",
+      "reqd": 1
+    },
+    {
+      "fieldname": "employee",
+      "fieldtype": "Link",
+      "label": "Employee",
+      "options": "Employee",
+      "reqd": 1
+    },
+    {
+      "fieldname": "clearance_form",
+      "fieldtype": "Link",
+      "label": "Clearance Form",
+      "options": "Clearance Form"
+    }
+  ],
+  "index_web_pages_for_search": 1,
+  "istable": 1,
+  "links": [],
+  "modified": "2023-08-15 16:58:15.727221",
+  "modified_by": "Administrator",
+  "module": "ALPHADEEM",
+  "name": "Final Settlement Entitlements",
+  "owner": "Administrator",
+  "permissions": [],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "states": []
 }
