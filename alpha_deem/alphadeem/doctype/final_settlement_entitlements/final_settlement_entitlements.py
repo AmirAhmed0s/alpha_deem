@@ -18,7 +18,7 @@ class FinalSettlementEntitlements(Document):
             self.entitlements = clearance_doc.entitlements if clearance_doc.entitlements else None
             self.amount = clearance_doc.amount if clearance_doc.amount else None
             self.description = clearance_doc.description if clearance_doc.description else None
-            self.from = clearance_doc.from_date if clearance_doc.from_date else None
+            self.from_date = clearance_doc.from_date if clearance_doc.from_date else None
             self.to = clearance_doc.to_date if clearance_doc.to_date else None
         else:
             # If no clearance form, fetch directly from Employee
