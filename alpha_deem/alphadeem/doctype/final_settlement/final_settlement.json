@@ -278,4 +278,20 @@
       "label": "Endorsement"
     },
     {
-      "default": "أقر أنا الموقع أدناه وأنا بكامل الأوصاف المعتمدة شرعا وبمحض اختياري بأنني استلمت كامل حقوقي النظامية والتي بلغت مبلغا وقدره (   ) ريال من شركة الفا ديم المحدودة وباستلامي للمبلغ
+      "default": "أقر أنا الموقع أدناه وأنا بكامل الأوصاف المعتمدة شرعا وبمحض اختياري بأنني استلمت كامل حقوقي النظامية والتي بلغت مبلغا وقدره (   ) ريال من شركة الفا ديم المحدودة وباستلامي للمبلغ أتنازل عن كل المطالبات",
+      "fieldname": "endorsement",
+      "fieldtype": "Text",
+      "label": "Endorsement"
+    },
+    {
+      "fieldname": "column_break_794vu",
+      "fieldtype": "Column Break"
+    },
+    {
+      "default": "I declare that I have received all my statutory rights which amounted to (  ) Riyals from Alpha Deem Company, and by receiving this amount, I waive all claims",
+      "fieldname": "endorsement_english",
+      "fieldtype": "Text",
+      "label": "Endorsement English"
+    }
+  ]
+}
